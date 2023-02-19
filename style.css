@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bgimage{
+    background-image: url("snowhome4.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-position: bottom center;
+    background-size: cover;
+    position: relative; 
+}
+
+.container{
+    position: absolute;
+    color: aliceblue;
+    margin: 0 6%;
+    line-height: 1;
+    padding-top: 14%;
+    text-shadow: 1px 1px 19px blueviolet;
+    
+}
+.container h3{
+    font-size: 6.5rem;
+    letter-spacing: 10px;
+    font-family: cursive;
+}
+.container p{
+    font-size: 2.2rem;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+}
+
+.login{
+    position: absolute;
+    text-align: center;
+    box-shadow: 3px 6px 30px 8px blueviolet;
+    right: 11%;
+    bottom: 15%;
+    height: 57%;
+    width: 25%;
+    border: 1px solid;
+    border-radius: 8px;
+    border-top-color: blueviolet;
+    border-left-color: blueviolet;
+    border-bottom-color: black;
+    border-right-color: black;
+    backdrop-filter: blur(5px);
+}
+.login h4{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: yellow;
+    padding-top: 10px;
+}
+.login p{
+    font-size: 18px;
+    color: yellow;
+    margin-bottom: 60px;
+}
+.inputbox{
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+
+.button{
+    border-radius: 25px;
+    width: 160px;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputbox input{
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    padding: 3px 4px;
+    outline: none;
+    padding-top: 30px;
+}
+.inputbox span{
+    position: absolute;
+   color: aliceblue;
+   padding: 10px 0px;
+   left: 20px;
+}
